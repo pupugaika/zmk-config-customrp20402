@@ -1,0 +1,6 @@
+if SHIELD_CUSTOM_RP2040
+
+config ZMK_KEYBOARD_NAME
+    default "Custom rp2040"
+
+endif
