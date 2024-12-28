@@ -20,3 +20,5 @@
 include:
   - board: adafruit_kb2040
     shield: custom_rp2040
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
